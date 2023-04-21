@@ -108,4 +108,4 @@ function finalizado(){
         }
       })}
 
-      let my_link = `<a href=http://127.0.0.1:5501/pages/form.html>PAGAR</a>`
+      let my_link = `<a href="./form.html"></a>`
