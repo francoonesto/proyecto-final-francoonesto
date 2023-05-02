@@ -36,5 +36,4 @@ a{
 }.e:hover{color: black;}
 .u{border: solid black 3;background-color: beige;}.u:hover{ background-color: yellow;color: black;}
 .t{text-decoration: none;border: none;}
-.edit{background-color: bisque;font-size: 1.5rem;font-weight: bold;color: black;width: 100px;border-color: black;border: solid black 3;}.edit:hover{color:black;background:white}
 .form-control {width: 50%;}
