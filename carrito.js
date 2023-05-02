@@ -108,4 +108,4 @@ function finalizado(){
         }
       })}
 
-      let my_link = `<a href="https://main--dashing-zuccutto-3c84a9.netlify.app/pages/form.html"><a>`
+      let my_link = href="https://main--dashing-zuccutto-3c84a9.netlify.app/pages/form.html"
