@@ -108,4 +108,4 @@ function finalizado(){
         }
       })}
 
-      let my_link = `<a href="./form.html"></a>`
+      let my_link = location.href = "form.html";
