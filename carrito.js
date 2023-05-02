@@ -95,7 +95,7 @@ function finalizado(){
         if (result.isConfirmed) {
           swal.fire({ html: `<h1>COMPRA EN PROCESO</h1>
           <p>A CONTINUACION SERA REDIRIGIDO</p>
-          <button class="edit"><p>${my_link}PAGAR<p></button>`
+          <button class="edit">${my_link}</button>`
             });
         } else if (
           result.dismiss === Swal.DismissReason.cancel
@@ -108,4 +108,4 @@ function finalizado(){
         }
       })}
 
-      let my_link = `<a href="https://main--dashing-zuccutto-3c84a9.netlify.app/pages/form.html"><a>`
+      let my_link = `<a href="https://main--dashing-zuccutto-3c84a9.netlify.app/pages/form.html">PAGAR<a>`
