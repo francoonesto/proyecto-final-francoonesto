@@ -108,4 +108,4 @@ function finalizado(){
         }
       })}
 
-      let my_link = location.href = "form.html";
+      let my_link = `location.href = "form.html"`;
