@@ -109,4 +109,4 @@ function finalizado(){
       })}
 
       let my_link = `<a href="./pages/form.html"><a>`
-      document.getElementById("bt").innerText = "PAGAR"
+      document.getElementById("bt").innerHTML = `<p>PAGAR<p>`
