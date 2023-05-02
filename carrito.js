@@ -95,7 +95,7 @@ function finalizado(){
         if (result.isConfirmed) {
           swal.fire({ html: `<h1>COMPRA EN PROCESO</h1>
           <p>A CONTINUACION SERA REDIRIGIDO</p>
-          <button id="bt" class="edit">${my_link}</button>`
+          <button class="edit">${my_link}<p>PAGAR<p></button>`
             });
         } else if (
           result.dismiss === Swal.DismissReason.cancel
@@ -109,4 +109,3 @@ function finalizado(){
       })}
 
       let my_link = `<a href="./pages/form.html"><a>`
-      document.getElementById("bt").innerHTML = `<p>PAGAR<p>`
